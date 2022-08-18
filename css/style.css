@@ -1,0 +1,131 @@
+body{
+    font-family: Acme;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5)) ,url(../images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.logo{
+    height: 100px;
+}
+.main{
+    display: flex;
+    list-style: none;
+}
+ 
+
+.main li{
+    margin-right: 60px;
+}
+
+.main li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-color: orangered;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: Acme;
+}
+.main li a:hover{
+    background-color: orangered;
+}
+  
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-family: Acme;
+}
+
+.btn1{
+  
+border: solid 1px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+padding: 10px 10px;
+border-radius: 10px;
+border-color: orangered;
+font-family: Acme;
+
+}
+
+.btn2{
+    border: solid 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: orangered;
+    margin-left: 10px;
+    font-family: Acme;
+
+}
+
+a:hover{
+    background-color: orangered;
+}
+
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+h3::after{
+    content:"";
+    display: block;
+
+    background-color: orangered;
+    height: 5px;
+    width: 120px;
+    margin: 20px auto;
+}
+.p1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.emp{
+    border: solid 1px;
+    padding: 10px 1px ;
+    border-radius: 6px;
+    text-align: center;
+}
+.emp img{
+    width: 50%;
+    border-radius: 50%;
+}
+.pro{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: orangered;
+}
+h2{
+    color: black;
+}
+
+
+
+
+
+
